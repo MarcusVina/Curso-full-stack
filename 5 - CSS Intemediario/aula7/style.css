@@ -1,0 +1,36 @@
+::selection{
+    color: pink;
+    background: black;
+}
+
+p::first-line{
+    color: blue;
+
+}
+
+p::first-letter{
+    color: red;
+    font-size: 50px;
+
+}
+
+h1::before{
+    background:url(https://www.creativefabrica.com/wp-content/uploads/2018/12/Rocket-icon-by-back1design1-4.jpg);
+    background-size: cover;
+    width: 34px;
+    height: 22px;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+}
+
+h1::after{
+    background:url(https://www.creativefabrica.com/wp-content/uploads/2018/12/Rocket-icon-by-back1design1-4.jpg);
+    background-size: cover;
+    width: 32px;
+    height: 23px;
+    display: inline-block;
+    content: "";
+    margin-left: 10px;
+    
+}

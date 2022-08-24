@@ -1,0 +1,21 @@
+ul{
+    background: gray;
+    padding: 20px;
+    text-align:right;
+    
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+    
+    
+    
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
